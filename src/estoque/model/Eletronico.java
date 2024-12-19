@@ -3,8 +3,8 @@ package estoque.model;
 public class Eletronico extends Produto{
 	private int memoria;
 	
-	public Eletronico(String nomeProd, String descProd, float precoProd, int quantidadeEstoque, int memoria) {
-		super(nomeProd, descProd, precoProd, quantidadeEstoque);
+	public Eletronico(int codigoProd, String nomeProd, String descProd, int tipo, float precoProd, int quantidadeEstoque, int memoria) {
+		super(codigoProd, nomeProd, descProd, tipo, precoProd, quantidadeEstoque);
 		this.memoria = memoria;
 }
 
